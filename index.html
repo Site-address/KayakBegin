@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Personal website of Your Name — portfolio, projects, and contact." />
+  <style>
+    :root {
+      --accent: #0078ff;
+      --bg: #f7f9fc;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: #111827;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 880px;
+      margin: 40px auto;
+      padding: 24px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 6px 24px rgba(10, 20, 30, 0.08);
+    }
+    header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: #e2e8f0;
+      flex-shrink: 0;
+    }
+    h1 {
+      margin: 0;
+      font-size: 1.6rem;
+    }
+    nav a {
+      margin-right: 12px;
+      color: var(--accent);
+      font-weight: 600;
+      text-decoration: none;
+    }
+    section { margin-top: 32px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      padding: 16px;
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      background: #fafcff;
+    }
+    footer {
+      margin-top: 32px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="avatar" aria-hidden="true"></div>
+      <div>
+        <h1>Your Name</h1>
+        <p>Short tagline or what you do — Developer, Designer, Student, etc.</p>
+        <nav>
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Project One</h3>
+          <p>Quick description of what it does or technologies used.</p>
+          <a href="#" target="_blank">View</a>
+        </article>
+        <article class="card">
+          <h3>Project Two</h3>
+          <p>Another project summary.</p>
+          <a href="#" target="_blank">View</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        Write a short paragraph about yourself — what you do, what you’re learning, what you’re passionate about.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        📧 <a href="mailto:you@example.com">you@example.com</a>  
+        🌐 <a href="https://github.com/yourusername" target="_blank">GitHub</a> |
+        <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+      </p>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Your Name — Built with ❤️ using GitHub Pages
+    </footer>
+  </main>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+# 🌐 YourName.github.io
+
+Personal website and portfolio built using **HTML + CSS**, hosted free on **GitHub Pages**.
+
+### 🔗 Live site
+👉 [https://yourusername.github.io](https://yourusername.github.io)
+
+### 🧩 Features
+- Minimal, responsive single-page layout  
+- Easy to customize text, colors, and links  
+- No ads, no frameworks required  
+
+### 🛠️ How to update
+1. Edit `index.html` directly in GitHub or push updates via Git.  
+2. Commit your changes — GitHub Pages redeploys automatically.  
+
+### 📄 License
+You can freely reuse or modify this template. Attribution appreciated but not required.

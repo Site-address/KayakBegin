@@ -1,0 +1,18 @@
+# 🌐 YourName.github.io
+
+Personal website and portfolio built using **HTML + CSS**, hosted free on **GitHub Pages**.
+
+### 🔗 Live site
+👉 [https://yourusername.github.io](https://yourusername.github.io)
+
+### 🧩 Features
+- Minimal, responsive single-page layout  
+- Easy to customize text, colors, and links  
+- No ads, no frameworks required  
+
+### 🛠️ How to update
+1. Edit `index.html` directly in GitHub or push updates via Git.  
+2. Commit your changes — GitHub Pages redeploys automatically.  
+
+### 📄 License
+You can freely reuse or modify this template. Attribution appreciated but not required.
